@@ -1,0 +1,775 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.8.1
+2 info using node@v20.16.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/root/.npmrc
+5 silly config load:file:/usr/etc/npmrc
+6 verbose title npm i rivalz-node-cli@2.4.0
+7 verbose argv "i" "--global" "rivalz-node-cli@2.4.0"
+8 verbose logfile logs-max:10 dir:/root/.npm/_logs/2024-08-10T12_44_29_286Z-
+9 verbose logfile /root/.npm/_logs/2024-08-10T12_44_29_286Z-debug-0.log
+10 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest rivalz-node-cli@2.4.0
+14 silly packumentCache full:https://registry.npmjs.org/rivalz-node-cli cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/rivalz-node-cli 64ms (cache hit)
+16 silly packumentCache full:https://registry.npmjs.org/rivalz-node-cli set size:141660 disposed:false
+17 silly placeDep ROOT rivalz-node-cli@2.4.0 OK for:  want: 2.4.0
+18 silly fetch manifest axios@^1.7.2
+19 silly packumentCache full:https://registry.npmjs.org/axios cache-miss
+20 silly fetch manifest chalk@^4.1.2
+21 silly packumentCache full:https://registry.npmjs.org/chalk cache-miss
+22 silly fetch manifest commander@^12.1.0
+23 silly packumentCache full:https://registry.npmjs.org/commander cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/commander 123ms (cache hit)
+25 silly packumentCache full:https://registry.npmjs.org/commander set size:942287 disposed:false
+26 silly fetch manifest ethers@^6.13.1
+27 silly packumentCache full:https://registry.npmjs.org/ethers cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/chalk 182ms (cache hit)
+29 silly packumentCache full:https://registry.npmjs.org/chalk set size:141442 disposed:false
+30 silly fetch manifest inquirer@^10.1.2
+31 silly packumentCache full:https://registry.npmjs.org/inquirer cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/axios 194ms (cache hit)
+33 silly packumentCache full:https://registry.npmjs.org/axios set size:552448 disposed:false
+34 silly fetch manifest mqtt@^5.8.1
+35 silly packumentCache full:https://registry.npmjs.org/mqtt cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/inquirer 62ms (cache hit)
+37 silly packumentCache full:https://registry.npmjs.org/inquirer set size:431697 disposed:false
+38 silly fetch manifest node-machine-id@^1.1.12
+39 silly packumentCache full:https://registry.npmjs.org/node-machine-id cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/ethers 113ms (cache hit)
+41 silly packumentCache full:https://registry.npmjs.org/ethers set size:1309679 disposed:false
+42 silly fetch manifest ora@^5.4.1
+43 silly packumentCache full:https://registry.npmjs.org/ora cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/mqtt 78ms (cache hit)
+45 silly packumentCache full:https://registry.npmjs.org/mqtt set size:723179 disposed:false
+46 silly fetch manifest systeminformation@^5.22.11
+47 silly packumentCache full:https://registry.npmjs.org/systeminformation cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/node-machine-id 93ms (cache hit)
+49 silly packumentCache full:https://registry.npmjs.org/node-machine-id set size:39325 disposed:false
+50 http fetch GET 200 https://registry.npmjs.org/ora 77ms (cache hit)
+51 silly packumentCache full:https://registry.npmjs.org/ora set size:124679 disposed:false
+52 http fetch GET 200 https://registry.npmjs.org/systeminformation 69ms (cache hit)
+53 silly packumentCache full:https://registry.npmjs.org/systeminformation set size:2082733 disposed:false
+54 silly placeDep node_modules/rivalz-node-cli axios@1.7.3 OK for: rivalz-node-cli@2.4.0 want: ^1.7.2
+55 silly placeDep node_modules/rivalz-node-cli chalk@4.1.2 OK for: rivalz-node-cli@2.4.0 want: ^4.1.2
+56 silly placeDep node_modules/rivalz-node-cli commander@12.1.0 OK for: rivalz-node-cli@2.4.0 want: ^12.1.0
+57 silly placeDep node_modules/rivalz-node-cli ethers@6.13.2 OK for: rivalz-node-cli@2.4.0 want: ^6.13.1
+58 silly placeDep node_modules/rivalz-node-cli inquirer@10.1.8 OK for: rivalz-node-cli@2.4.0 want: ^10.1.2
+59 silly placeDep node_modules/rivalz-node-cli mqtt@5.9.1 OK for: rivalz-node-cli@2.4.0 want: ^5.8.1
+60 silly placeDep node_modules/rivalz-node-cli node-machine-id@1.1.12 OK for: rivalz-node-cli@2.4.0 want: ^1.1.12
+61 silly placeDep node_modules/rivalz-node-cli ora@5.4.1 OK for: rivalz-node-cli@2.4.0 want: ^5.4.1
+62 silly placeDep node_modules/rivalz-node-cli systeminformation@5.23.4 OK for: rivalz-node-cli@2.4.0 want: ^5.22.11
+63 silly fetch manifest follow-redirects@^1.15.6
+64 silly packumentCache full:https://registry.npmjs.org/follow-redirects cache-miss
+65 silly fetch manifest form-data@^4.0.0
+66 silly packumentCache full:https://registry.npmjs.org/form-data cache-miss
+67 silly fetch manifest proxy-from-env@^1.1.0
+68 silly packumentCache full:https://registry.npmjs.org/proxy-from-env cache-miss
+69 http fetch GET 200 https://registry.npmjs.org/proxy-from-env 73ms (cache hit)
+70 silly packumentCache full:https://registry.npmjs.org/proxy-from-env set size:15831 disposed:false
+71 silly fetch manifest ansi-styles@^4.1.0
+72 silly packumentCache full:https://registry.npmjs.org/ansi-styles cache-miss
+73 http fetch GET 200 https://registry.npmjs.org/follow-redirects 125ms (cache hit)
+74 silly packumentCache full:https://registry.npmjs.org/follow-redirects set size:176092 disposed:false
+75 silly fetch manifest supports-color@^7.1.0
+76 silly packumentCache full:https://registry.npmjs.org/supports-color cache-miss
+77 http fetch GET 200 https://registry.npmjs.org/form-data 132ms (cache hit)
+78 silly packumentCache full:https://registry.npmjs.org/form-data set size:117324 disposed:false
+79 silly fetch manifest ws@8.17.1
+80 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+81 http fetch GET 200 https://registry.npmjs.org/ansi-styles 86ms (cache hit)
+82 silly packumentCache full:https://registry.npmjs.org/ansi-styles set size:66356 disposed:false
+83 silly fetch manifest tslib@2.4.0
+84 silly packumentCache full:https://registry.npmjs.org/tslib cache-miss
+85 http fetch GET 200 https://registry.npmjs.org/supports-color 56ms (cache hit)
+86 silly packumentCache full:https://registry.npmjs.org/supports-color set size:113904 disposed:false
+87 silly fetch manifest aes-js@4.0.0-beta.5
+88 silly packumentCache full:https://registry.npmjs.org/aes-js cache-miss
+89 http fetch GET 200 https://registry.npmjs.org/ws 59ms (cache hit)
+90 silly packumentCache full:https://registry.npmjs.org/ws set size:403597 disposed:false
+91 silly fetch manifest @types/node@18.15.13
+92 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+93 http fetch GET 200 https://registry.npmjs.org/tslib 134ms (cache hit)
+94 silly packumentCache full:https://registry.npmjs.org/tslib set size:102541 disposed:false
+95 silly fetch manifest @noble/curves@1.2.0
+96 silly packumentCache full:https://registry.npmjs.org/@noble%2fcurves cache-miss
+97 http fetch GET 200 https://registry.npmjs.org/aes-js 146ms (cache hit)
+98 silly packumentCache full:https://registry.npmjs.org/aes-js set size:116677 disposed:false
+99 silly fetch manifest @noble/hashes@1.3.2
+100 silly packumentCache full:https://registry.npmjs.org/@noble%2fhashes cache-miss
+101 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 174ms (cache hit)
+102 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:8932266 disposed:false
+103 silly fetch manifest @adraffy/ens-normalize@1.10.1
+104 silly packumentCache full:https://registry.npmjs.org/@adraffy%2fens-normalize cache-miss
+105 http fetch GET 200 https://registry.npmjs.org/@noble%2fcurves 316ms (cache hit)
+106 silly packumentCache full:https://registry.npmjs.org/@noble%2fcurves set size:212950 disposed:false
+107 silly fetch manifest @inquirer/prompts@^5.3.8
+108 silly packumentCache full:https://registry.npmjs.org/@inquirer%2fprompts cache-miss
+109 http fetch GET 200 https://registry.npmjs.org/@noble%2fhashes 286ms (cache hit)
+110 silly packumentCache full:https://registry.npmjs.org/@noble%2fhashes set size:159005 disposed:false
+111 silly fetch manifest @inquirer/type@^1.5.2
+112 silly packumentCache full:https://registry.npmjs.org/@inquirer%2ftype cache-miss
+113 http fetch GET 200 https://registry.npmjs.org/@adraffy%2fens-normalize 133ms (cache hit)
+114 silly packumentCache full:https://registry.npmjs.org/@adraffy%2fens-normalize set size:143537 disposed:false
+115 silly fetch manifest @types/mute-stream@^0.0.4
+116 silly packumentCache full:https://registry.npmjs.org/@types%2fmute-stream cache-miss
+117 http fetch GET 200 https://registry.npmjs.org/@inquirer%2fprompts 111ms (cache hit)
+118 silly packumentCache full:https://registry.npmjs.org/@inquirer%2fprompts set size:168180 disposed:false
+119 silly fetch manifest ansi-escapes@^4.3.2
+120 silly packumentCache full:https://registry.npmjs.org/ansi-escapes cache-miss
+121 http fetch GET 200 https://registry.npmjs.org/@inquirer%2ftype 112ms (cache hit)
+122 silly packumentCache full:https://registry.npmjs.org/@inquirer%2ftype set size:65418 disposed:false
+123 silly fetch manifest mute-stream@^1.0.0
+124 silly packumentCache full:https://registry.npmjs.org/mute-stream cache-miss
+125 http fetch GET 200 https://registry.npmjs.org/@types%2fmute-stream 115ms (cache hit)
+126 silly packumentCache full:https://registry.npmjs.org/@types%2fmute-stream set size:10411 disposed:false
+127 silly fetch manifest run-async@^3.0.0
+128 silly packumentCache full:https://registry.npmjs.org/run-async cache-miss
+129 http fetch GET 200 https://registry.npmjs.org/ansi-escapes 107ms (cache hit)
+130 silly packumentCache full:https://registry.npmjs.org/ansi-escapes set size:61494 disposed:false
+131 silly fetch manifest rxjs@^7.8.1
+132 silly packumentCache full:https://registry.npmjs.org/rxjs cache-miss
+133 http fetch GET 200 https://registry.npmjs.org/mute-stream 114ms (cache hit)
+134 silly packumentCache full:https://registry.npmjs.org/mute-stream set size:16942 disposed:false
+135 silly fetch manifest @types/readable-stream@^4.0.5
+136 silly packumentCache full:https://registry.npmjs.org/@types%2freadable-stream cache-miss
+137 http fetch GET 200 https://registry.npmjs.org/run-async 117ms (cache hit)
+138 silly packumentCache full:https://registry.npmjs.org/run-async set size:18882 disposed:false
+139 silly fetch manifest @types/ws@^8.5.9
+140 silly packumentCache full:https://registry.npmjs.org/@types%2fws cache-miss
+141 http fetch GET 200 https://registry.npmjs.org/rxjs 121ms (cache hit)
+142 silly packumentCache full:https://registry.npmjs.org/rxjs set size:1240752 disposed:false
+143 silly fetch manifest commist@^3.2.0
+144 silly packumentCache full:https://registry.npmjs.org/commist cache-miss
+145 http fetch GET 200 https://registry.npmjs.org/@types%2freadable-stream 122ms (cache hit)
+146 silly packumentCache full:https://registry.npmjs.org/@types%2freadable-stream set size:67134 disposed:false
+147 silly fetch manifest concat-stream@^2.0.0
+148 silly packumentCache full:https://registry.npmjs.org/concat-stream cache-miss
+149 http fetch GET 200 https://registry.npmjs.org/@types%2fws 156ms (cache hit)
+150 silly packumentCache full:https://registry.npmjs.org/@types%2fws set size:159171 disposed:false
+151 silly fetch manifest debug@^4.3.4
+152 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+153 http fetch GET 200 https://registry.npmjs.org/commist 210ms (cache hit)
+154 silly packumentCache full:https://registry.npmjs.org/commist set size:24560 disposed:false
+155 silly fetch manifest help-me@^5.0.0
+156 silly packumentCache full:https://registry.npmjs.org/help-me cache-miss
+157 http fetch GET 200 https://registry.npmjs.org/concat-stream 220ms (cache hit)
+158 silly packumentCache full:https://registry.npmjs.org/concat-stream set size:63783 disposed:false
+159 silly fetch manifest lru-cache@^10.0.1
+160 silly packumentCache full:https://registry.npmjs.org/lru-cache cache-miss
+161 http fetch GET 200 https://registry.npmjs.org/debug 185ms (cache hit)
+162 silly packumentCache full:https://registry.npmjs.org/debug set size:186932 disposed:false
+163 silly fetch manifest minimist@^1.2.8
+164 silly packumentCache full:https://registry.npmjs.org/minimist cache-miss
+165 http fetch GET 200 https://registry.npmjs.org/help-me 96ms (cache hit)
+166 silly packumentCache full:https://registry.npmjs.org/help-me set size:29897 disposed:false
+167 silly fetch manifest mqtt-packet@^9.0.0
+168 silly packumentCache full:https://registry.npmjs.org/mqtt-packet cache-miss
+169 http fetch GET 200 https://registry.npmjs.org/lru-cache 105ms (cache hit)
+170 silly packumentCache full:https://registry.npmjs.org/lru-cache set size:698785 disposed:false
+171 silly fetch manifest number-allocator@^1.0.14
+172 silly packumentCache full:https://registry.npmjs.org/number-allocator cache-miss
+173 http fetch GET 200 https://registry.npmjs.org/minimist 148ms (cache hit)
+174 silly packumentCache full:https://registry.npmjs.org/minimist set size:77097 disposed:false
+175 silly fetch manifest readable-stream@^4.4.2
+176 silly packumentCache full:https://registry.npmjs.org/readable-stream cache-miss
+177 http fetch GET 200 https://registry.npmjs.org/mqtt-packet 95ms (cache hit)
+178 silly packumentCache full:https://registry.npmjs.org/mqtt-packet set size:210492 disposed:false
+179 silly fetch manifest reinterval@^1.1.0
+180 silly packumentCache full:https://registry.npmjs.org/reinterval cache-miss
+181 http fetch GET 200 https://registry.npmjs.org/readable-stream 57ms (cache hit)
+182 silly packumentCache full:https://registry.npmjs.org/readable-stream set size:272167 disposed:false
+183 silly fetch manifest rfdc@^1.3.0
+184 silly packumentCache full:https://registry.npmjs.org/rfdc cache-miss
+185 http fetch GET 200 https://registry.npmjs.org/number-allocator 132ms (cache hit)
+186 silly packumentCache full:https://registry.npmjs.org/number-allocator set size:45084 disposed:false
+187 silly fetch manifest split2@^4.2.0
+188 silly packumentCache full:https://registry.npmjs.org/split2 cache-miss
+189 http fetch GET 200 https://registry.npmjs.org/reinterval 122ms (cache hit)
+190 silly packumentCache full:https://registry.npmjs.org/reinterval set size:8319 disposed:false
+191 silly fetch manifest worker-timers@^7.1.4
+192 silly packumentCache full:https://registry.npmjs.org/worker-timers cache-miss
+193 http fetch GET 200 https://registry.npmjs.org/split2 88ms (cache hit)
+194 silly packumentCache full:https://registry.npmjs.org/split2 set size:47438 disposed:false
+195 silly fetch manifest ws@^8.17.1
+196 silly packumentCache full:https://registry.npmjs.org/ws cache-hit
+197 silly fetch manifest bl@^4.1.0
+198 silly packumentCache full:https://registry.npmjs.org/bl cache-miss
+199 http fetch GET 200 https://registry.npmjs.org/rfdc 121ms (cache hit)
+200 silly packumentCache full:https://registry.npmjs.org/rfdc set size:45382 disposed:false
+201 silly fetch manifest wcwidth@^1.0.1
+202 silly packumentCache full:https://registry.npmjs.org/wcwidth cache-miss
+203 http fetch GET 200 https://registry.npmjs.org/worker-timers 94ms (cache hit)
+204 silly packumentCache full:https://registry.npmjs.org/worker-timers set size:911571 disposed:false
+205 silly fetch manifest cli-cursor@^3.1.0
+206 silly packumentCache full:https://registry.npmjs.org/cli-cursor cache-miss
+207 http fetch GET 200 https://registry.npmjs.org/bl 92ms (cache hit)
+208 silly packumentCache full:https://registry.npmjs.org/bl set size:150889 disposed:false
+209 silly fetch manifest strip-ansi@^6.0.0
+210 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-miss
+211 http fetch GET 200 https://registry.npmjs.org/wcwidth 133ms (cache hit)
+212 silly packumentCache full:https://registry.npmjs.org/wcwidth set size:5904 disposed:false
+213 silly fetch manifest log-symbols@^4.1.0
+214 silly packumentCache full:https://registry.npmjs.org/log-symbols cache-miss
+215 http fetch GET 200 https://registry.npmjs.org/cli-cursor 130ms (cache hit)
+216 silly packumentCache full:https://registry.npmjs.org/cli-cursor set size:18913 disposed:false
+217 silly fetch manifest cli-spinners@^2.5.0
+218 silly packumentCache full:https://registry.npmjs.org/cli-spinners cache-miss
+219 http fetch GET 200 https://registry.npmjs.org/strip-ansi 125ms (cache hit)
+220 silly packumentCache full:https://registry.npmjs.org/strip-ansi set size:43180 disposed:false
+221 silly fetch manifest is-interactive@^1.0.0
+222 silly packumentCache full:https://registry.npmjs.org/is-interactive cache-miss
+223 http fetch GET 200 https://registry.npmjs.org/log-symbols 73ms (cache hit)
+224 silly packumentCache full:https://registry.npmjs.org/log-symbols set size:28026 disposed:false
+225 silly fetch manifest is-unicode-supported@^0.1.0
+226 silly packumentCache full:https://registry.npmjs.org/is-unicode-supported cache-miss
+227 http fetch GET 200 https://registry.npmjs.org/cli-spinners 25ms (cache hit)
+228 silly packumentCache full:https://registry.npmjs.org/cli-spinners set size:59098 disposed:false
+229 http fetch GET 200 https://registry.npmjs.org/is-interactive 37ms (cache hit)
+230 silly packumentCache full:https://registry.npmjs.org/is-interactive set size:10692 disposed:false
+231 http fetch GET 200 https://registry.npmjs.org/is-unicode-supported 41ms (cache hit)
+232 silly packumentCache full:https://registry.npmjs.org/is-unicode-supported set size:17590 disposed:false
+233 silly placeDep node_modules/rivalz-node-cli follow-redirects@1.15.6 OK for: axios@1.7.3 want: ^1.15.6
+234 silly placeDep node_modules/rivalz-node-cli form-data@4.0.0 OK for: axios@1.7.3 want: ^4.0.0
+235 silly placeDep node_modules/rivalz-node-cli proxy-from-env@1.1.0 OK for: axios@1.7.3 want: ^1.1.0
+236 silly fetch manifest asynckit@^0.4.0
+237 silly packumentCache full:https://registry.npmjs.org/asynckit cache-miss
+238 silly fetch manifest combined-stream@^1.0.8
+239 silly packumentCache full:https://registry.npmjs.org/combined-stream cache-miss
+240 silly fetch manifest mime-types@^2.1.12
+241 silly packumentCache full:https://registry.npmjs.org/mime-types cache-miss
+242 http fetch GET 200 https://registry.npmjs.org/asynckit 43ms (cache hit)
+243 silly packumentCache full:https://registry.npmjs.org/asynckit set size:17357 disposed:false
+244 http fetch GET 200 https://registry.npmjs.org/combined-stream 44ms (cache hit)
+245 silly packumentCache full:https://registry.npmjs.org/combined-stream set size:40337 disposed:false
+246 http fetch GET 200 https://registry.npmjs.org/mime-types 45ms (cache hit)
+247 silly packumentCache full:https://registry.npmjs.org/mime-types set size:131008 disposed:false
+248 silly placeDep node_modules/rivalz-node-cli ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+249 silly placeDep node_modules/rivalz-node-cli supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+250 silly fetch manifest color-convert@^2.0.1
+251 silly packumentCache full:https://registry.npmjs.org/color-convert cache-miss
+252 silly fetch manifest has-flag@^4.0.0
+253 silly packumentCache full:https://registry.npmjs.org/has-flag cache-miss
+254 http fetch GET 200 https://registry.npmjs.org/color-convert 21ms (cache hit)
+255 silly packumentCache full:https://registry.npmjs.org/color-convert set size:61781 disposed:false
+256 http fetch GET 200 https://registry.npmjs.org/has-flag 36ms (cache hit)
+257 silly packumentCache full:https://registry.npmjs.org/has-flag set size:15180 disposed:false
+258 silly placeDep node_modules/rivalz-node-cli color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+259 silly fetch manifest color-name@~1.1.4
+260 silly packumentCache full:https://registry.npmjs.org/color-name cache-miss
+261 http fetch GET 200 https://registry.npmjs.org/color-name 22ms (cache hit)
+262 silly packumentCache full:https://registry.npmjs.org/color-name set size:16325 disposed:false
+263 silly placeDep node_modules/rivalz-node-cli color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+264 silly fetch manifest bufferutil@^4.0.1
+265 silly packumentCache full:https://registry.npmjs.org/bufferutil cache-miss
+266 http fetch GET 200 https://registry.npmjs.org/bufferutil 37ms (cache hit)
+267 silly packumentCache full:https://registry.npmjs.org/bufferutil set size:49090 disposed:false
+268 silly fetch manifest utf-8-validate@>=5.0.2
+269 silly packumentCache full:https://registry.npmjs.org/utf-8-validate cache-miss
+270 http fetch GET 200 https://registry.npmjs.org/utf-8-validate 20ms (cache hit)
+271 silly packumentCache full:https://registry.npmjs.org/utf-8-validate set size:73063 disposed:false
+272 silly placeDep node_modules/rivalz-node-cli @adraffy/ens-normalize@1.10.1 OK for: ethers@6.13.2 want: 1.10.1
+273 silly placeDep node_modules/rivalz-node-cli @noble/curves@1.2.0 OK for: ethers@6.13.2 want: 1.2.0
+274 silly placeDep node_modules/rivalz-node-cli @noble/hashes@1.3.2 OK for: ethers@6.13.2 want: 1.3.2
+275 silly placeDep node_modules/rivalz-node-cli @types/node@18.15.13 OK for: ethers@6.13.2 want: 18.15.13
+276 silly placeDep node_modules/rivalz-node-cli aes-js@4.0.0-beta.5 OK for: ethers@6.13.2 want: 4.0.0-beta.5
+277 silly placeDep node_modules/rivalz-node-cli tslib@2.4.0 OK for: ethers@6.13.2 want: 2.4.0
+278 silly placeDep node_modules/rivalz-node-cli ws@8.17.1 OK for: ethers@6.13.2 want: 8.17.1
+279 silly placeDep node_modules/rivalz-node-cli asynckit@0.4.0 OK for: form-data@4.0.0 want: ^0.4.0
+280 silly placeDep node_modules/rivalz-node-cli combined-stream@1.0.8 OK for: form-data@4.0.0 want: ^1.0.8
+281 silly placeDep node_modules/rivalz-node-cli mime-types@2.1.35 OK for: form-data@4.0.0 want: ^2.1.12
+282 silly fetch manifest delayed-stream@~1.0.0
+283 silly packumentCache full:https://registry.npmjs.org/delayed-stream cache-miss
+284 silly fetch manifest mime-db@1.52.0
+285 silly packumentCache full:https://registry.npmjs.org/mime-db cache-miss
+286 http fetch GET 200 https://registry.npmjs.org/delayed-stream 10ms (cache hit)
+287 silly packumentCache full:https://registry.npmjs.org/delayed-stream set size:15820 disposed:false
+288 http fetch GET 200 https://registry.npmjs.org/mime-db 12ms (cache hit)
+289 silly packumentCache full:https://registry.npmjs.org/mime-db set size:161952 disposed:false
+290 silly placeDep node_modules/rivalz-node-cli delayed-stream@1.0.0 OK for: combined-stream@1.0.8 want: ~1.0.0
+291 silly placeDep node_modules/rivalz-node-cli @inquirer/prompts@5.3.8 OK for: inquirer@10.1.8 want: ^5.3.8
+292 silly placeDep node_modules/rivalz-node-cli @inquirer/type@1.5.2 OK for: inquirer@10.1.8 want: ^1.5.2
+293 silly placeDep node_modules/rivalz-node-cli @types/mute-stream@0.0.4 OK for: inquirer@10.1.8 want: ^0.0.4
+294 silly placeDep node_modules/rivalz-node-cli ansi-escapes@4.3.2 OK for: inquirer@10.1.8 want: ^4.3.2
+295 silly placeDep node_modules/rivalz-node-cli mute-stream@1.0.0 OK for: inquirer@10.1.8 want: ^1.0.0
+296 silly placeDep node_modules/rivalz-node-cli run-async@3.0.0 OK for: inquirer@10.1.8 want: ^3.0.0
+297 silly placeDep node_modules/rivalz-node-cli rxjs@7.8.1 OK for: inquirer@10.1.8 want: ^7.8.1
+298 silly fetch manifest @inquirer/checkbox@^2.4.7
+299 silly packumentCache full:https://registry.npmjs.org/@inquirer%2fcheckbox cache-miss
+300 silly fetch manifest @inquirer/confirm@^3.1.22
+301 silly packumentCache full:https://registry.npmjs.org/@inquirer%2fconfirm cache-miss
+302 silly fetch manifest @inquirer/editor@^2.1.22
+303 silly packumentCache full:https://registry.npmjs.org/@inquirer%2feditor cache-miss
+304 http fetch GET 200 https://registry.npmjs.org/@inquirer%2fcheckbox 24ms (cache hit)
+305 silly packumentCache full:https://registry.npmjs.org/@inquirer%2fcheckbox set size:220377 disposed:false
+306 silly fetch manifest @inquirer/expand@^2.1.22
+307 silly packumentCache full:https://registry.npmjs.org/@inquirer%2fexpand cache-miss
+308 http fetch GET 200 https://registry.npmjs.org/@inquirer%2fconfirm 27ms (cache hit)
+309 silly packumentCache full:https://registry.npmjs.org/@inquirer%2fconfirm set size:206385 disposed:false
+310 silly fetch manifest @inquirer/input@^2.2.9
+311 silly packumentCache full:https://registry.npmjs.org/@inquirer%2finput cache-miss
+312 http fetch GET 200 https://registry.npmjs.org/@inquirer%2feditor 29ms (cache hit)
+313 silly packumentCache full:https://registry.npmjs.org/@inquirer%2feditor set size:196025 disposed:false
+314 silly fetch manifest @inquirer/number@^1.0.10
+315 silly packumentCache full:https://registry.npmjs.org/@inquirer%2fnumber cache-miss
+316 http fetch GET 200 https://registry.npmjs.org/@inquirer%2fnumber 6ms (cache hit)
+317 silly packumentCache full:https://registry.npmjs.org/@inquirer%2fnumber set size:28062 disposed:false
+318 silly fetch manifest @inquirer/password@^2.1.22
+319 silly packumentCache full:https://registry.npmjs.org/@inquirer%2fpassword cache-miss
+320 http fetch GET 200 https://registry.npmjs.org/@inquirer%2fexpand 17ms (cache hit)
+321 silly packumentCache full:https://registry.npmjs.org/@inquirer%2fexpand set size:202941 disposed:false
+322 silly fetch manifest @inquirer/rawlist@^2.2.4
+323 silly packumentCache full:https://registry.npmjs.org/@inquirer%2frawlist cache-miss
+324 http fetch GET 200 https://registry.npmjs.org/@inquirer%2finput 25ms (cache hit)
+325 silly packumentCache full:https://registry.npmjs.org/@inquirer%2finput set size:202404 disposed:false
+326 silly fetch manifest @inquirer/search@^1.0.7
+327 silly packumentCache full:https://registry.npmjs.org/@inquirer%2fsearch cache-miss
+328 http fetch GET 200 https://registry.npmjs.org/@inquirer%2frawlist 20ms (cache hit)
+329 silly packumentCache full:https://registry.npmjs.org/@inquirer%2frawlist set size:171407 disposed:false
+330 silly fetch manifest @inquirer/select@^2.4.7
+331 silly packumentCache full:https://registry.npmjs.org/@inquirer%2fselect cache-miss
+332 http fetch GET 200 https://registry.npmjs.org/@inquirer%2fsearch 39ms (cache hit)
+333 silly packumentCache full:https://registry.npmjs.org/@inquirer%2fsearch set size:21131 disposed:false
+334 silly fetch manifest type-fest@^0.21.3
+335 silly packumentCache full:https://registry.npmjs.org/type-fest cache-miss
+336 http fetch GET 200 https://registry.npmjs.org/@inquirer%2fpassword 58ms (cache hit)
+337 silly packumentCache full:https://registry.npmjs.org/@inquirer%2fpassword set size:204342 disposed:false
+338 http fetch GET 200 https://registry.npmjs.org/@inquirer%2fselect 46ms (cache hit)
+339 silly packumentCache full:https://registry.npmjs.org/@inquirer%2fselect set size:211040 disposed:false
+340 http fetch GET 200 https://registry.npmjs.org/type-fest 30ms (cache hit)
+341 silly packumentCache full:https://registry.npmjs.org/type-fest set size:458599 disposed:false
+342 silly placeDep node_modules/rivalz-node-cli @inquirer/checkbox@2.4.7 OK for: @inquirer/prompts@5.3.8 want: ^2.4.7
+343 silly placeDep node_modules/rivalz-node-cli @inquirer/confirm@3.1.22 OK for: @inquirer/prompts@5.3.8 want: ^3.1.22
+344 silly placeDep node_modules/rivalz-node-cli @inquirer/editor@2.1.22 OK for: @inquirer/prompts@5.3.8 want: ^2.1.22
+345 silly placeDep node_modules/rivalz-node-cli @inquirer/expand@2.1.22 OK for: @inquirer/prompts@5.3.8 want: ^2.1.22
+346 silly placeDep node_modules/rivalz-node-cli @inquirer/input@2.2.9 OK for: @inquirer/prompts@5.3.8 want: ^2.2.9
+347 silly placeDep node_modules/rivalz-node-cli @inquirer/number@1.0.10 OK for: @inquirer/prompts@5.3.8 want: ^1.0.10
+348 silly placeDep node_modules/rivalz-node-cli @inquirer/password@2.1.22 OK for: @inquirer/prompts@5.3.8 want: ^2.1.22
+349 silly placeDep node_modules/rivalz-node-cli @inquirer/rawlist@2.2.4 OK for: @inquirer/prompts@5.3.8 want: ^2.2.4
+350 silly placeDep node_modules/rivalz-node-cli @inquirer/search@1.0.7 OK for: @inquirer/prompts@5.3.8 want: ^1.0.7
+351 silly placeDep node_modules/rivalz-node-cli @inquirer/select@2.4.7 OK for: @inquirer/prompts@5.3.8 want: ^2.4.7
+352 silly fetch manifest @inquirer/core@^9.0.10
+353 silly packumentCache full:https://registry.npmjs.org/@inquirer%2fcore cache-miss
+354 silly fetch manifest @inquirer/figures@^1.0.5
+355 silly packumentCache full:https://registry.npmjs.org/@inquirer%2ffigures cache-miss
+356 silly fetch manifest yoctocolors-cjs@^2.1.2
+357 silly packumentCache full:https://registry.npmjs.org/yoctocolors-cjs cache-miss
+358 http fetch GET 200 https://registry.npmjs.org/yoctocolors-cjs 29ms (cache hit)
+359 silly packumentCache full:https://registry.npmjs.org/yoctocolors-cjs set size:10739 disposed:false
+360 silly fetch manifest @inquirer/core@^9.0.10
+361 silly packumentCache full:https://registry.npmjs.org/@inquirer%2fcore cache-miss
+362 http fetch GET 200 https://registry.npmjs.org/@inquirer%2fcore 33ms (cache hit)
+363 silly packumentCache full:https://registry.npmjs.org/@inquirer%2fcore set size:223206 disposed:false
+364 silly fetch manifest external-editor@^3.1.0
+365 silly packumentCache full:https://registry.npmjs.org/external-editor cache-miss
+366 http fetch GET 200 https://registry.npmjs.org/@inquirer%2ffigures 36ms (cache hit)
+367 silly packumentCache full:https://registry.npmjs.org/@inquirer%2ffigures set size:15209 disposed:false
+368 http fetch GET 200 https://registry.npmjs.org/@inquirer%2fcore 36ms (cache hit)
+369 silly packumentCache full:https://registry.npmjs.org/@inquirer%2fcore set size:223206 disposed:false
+370 silly packumentCache full:https://registry.npmjs.org/@inquirer%2fcore dispose
+371 http fetch GET 200 https://registry.npmjs.org/external-editor 46ms (cache hit)
+372 silly packumentCache full:https://registry.npmjs.org/external-editor set size:48675 disposed:false
+373 silly placeDep node_modules/rivalz-node-cli @inquirer/core@9.0.10 OK for: @inquirer/checkbox@2.4.7 want: ^9.0.10
+374 silly placeDep node_modules/rivalz-node-cli @inquirer/figures@1.0.5 OK for: @inquirer/checkbox@2.4.7 want: ^1.0.5
+375 silly placeDep node_modules/rivalz-node-cli yoctocolors-cjs@2.1.2 OK for: @inquirer/checkbox@2.4.7 want: ^2.1.2
+376 silly fetch manifest @types/node@^22.1.0
+377 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+378 silly fetch manifest @types/wrap-ansi@^3.0.0
+379 silly packumentCache full:https://registry.npmjs.org/@types%2fwrap-ansi cache-miss
+380 silly fetch manifest cli-spinners@^2.9.2
+381 silly packumentCache full:https://registry.npmjs.org/cli-spinners cache-hit
+382 silly fetch manifest cli-width@^4.1.0
+383 silly packumentCache full:https://registry.npmjs.org/cli-width cache-miss
+384 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 113ms (cache hit)
+385 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:8932266 disposed:false
+386 silly fetch manifest signal-exit@^4.1.0
+387 silly packumentCache full:https://registry.npmjs.org/signal-exit cache-miss
+388 http fetch GET 200 https://registry.npmjs.org/@types%2fwrap-ansi 256ms (cache hit)
+389 silly packumentCache full:https://registry.npmjs.org/@types%2fwrap-ansi set size:24356 disposed:false
+390 silly fetch manifest strip-ansi@^6.0.1
+391 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-hit
+392 silly fetch manifest wrap-ansi@^6.2.0
+393 silly packumentCache full:https://registry.npmjs.org/wrap-ansi cache-miss
+394 http fetch GET 200 https://registry.npmjs.org/cli-width 265ms (cache hit)
+395 silly packumentCache full:https://registry.npmjs.org/cli-width set size:24976 disposed:false
+396 http fetch GET 200 https://registry.npmjs.org/signal-exit 95ms (cache hit)
+397 silly packumentCache full:https://registry.npmjs.org/signal-exit set size:53489 disposed:false
+398 http fetch GET 200 https://registry.npmjs.org/wrap-ansi 65ms (cache hit)
+399 silly packumentCache full:https://registry.npmjs.org/wrap-ansi set size:51143 disposed:false
+400 silly placeDep node_modules/rivalz-node-cli/node_modules/@inquirer/core @types/node@22.2.0 OK for: @inquirer/core@9.0.10 want: ^22.1.0
+401 silly placeDep node_modules/rivalz-node-cli @types/wrap-ansi@3.0.0 OK for: @inquirer/core@9.0.10 want: ^3.0.0
+402 silly placeDep node_modules/rivalz-node-cli cli-spinners@2.9.2 OK for: @inquirer/core@9.0.10 want: ^2.9.2
+403 silly placeDep node_modules/rivalz-node-cli cli-width@4.1.0 OK for: @inquirer/core@9.0.10 want: ^4.1.0
+404 silly placeDep node_modules/rivalz-node-cli signal-exit@4.1.0 OK for: @inquirer/core@9.0.10 want: ^4.1.0
+405 silly placeDep node_modules/rivalz-node-cli strip-ansi@6.0.1 OK for: @inquirer/core@9.0.10 want: ^6.0.1
+406 silly placeDep node_modules/rivalz-node-cli wrap-ansi@6.2.0 OK for: @inquirer/core@9.0.10 want: ^6.2.0
+407 silly fetch manifest undici-types@~6.13.0
+408 silly packumentCache full:https://registry.npmjs.org/undici-types cache-miss
+409 silly fetch manifest ansi-regex@^5.0.1
+410 silly packumentCache full:https://registry.npmjs.org/ansi-regex cache-miss
+411 silly fetch manifest string-width@^4.1.0
+412 silly packumentCache full:https://registry.npmjs.org/string-width cache-miss
+413 http fetch GET 200 https://registry.npmjs.org/ansi-regex 70ms (cache hit)
+414 silly packumentCache full:https://registry.npmjs.org/ansi-regex set size:45233 disposed:false
+415 http fetch GET 200 https://registry.npmjs.org/string-width 73ms (cache hit)
+416 silly packumentCache full:https://registry.npmjs.org/string-width set size:61460 disposed:false
+417 http fetch GET 200 https://registry.npmjs.org/undici-types 83ms (cache hit)
+418 silly packumentCache full:https://registry.npmjs.org/undici-types set size:104888 disposed:false
+419 silly placeDep node_modules/rivalz-node-cli external-editor@3.1.0 OK for: @inquirer/editor@2.1.22 want: ^3.1.0
+420 silly fetch manifest chardet@^0.7.0
+421 silly packumentCache full:https://registry.npmjs.org/chardet cache-miss
+422 silly fetch manifest iconv-lite@^0.4.24
+423 silly packumentCache full:https://registry.npmjs.org/iconv-lite cache-miss
+424 silly fetch manifest tmp@^0.0.33
+425 silly packumentCache full:https://registry.npmjs.org/tmp cache-miss
+426 http fetch GET 200 https://registry.npmjs.org/iconv-lite 45ms (cache hit)
+427 silly packumentCache full:https://registry.npmjs.org/iconv-lite set size:115994 disposed:false
+428 http fetch GET 200 https://registry.npmjs.org/tmp 54ms (cache hit)
+429 silly packumentCache full:https://registry.npmjs.org/tmp set size:70665 disposed:false
+430 http fetch GET 200 https://registry.npmjs.org/chardet 60ms (cache hit)
+431 silly packumentCache full:https://registry.npmjs.org/chardet set size:64874 disposed:false
+432 silly placeDep node_modules/rivalz-node-cli type-fest@0.21.3 OK for: ansi-escapes@4.3.2 want: ^0.21.3
+433 silly placeDep node_modules/rivalz-node-cli chardet@0.7.0 OK for: external-editor@3.1.0 want: ^0.7.0
+434 silly placeDep node_modules/rivalz-node-cli iconv-lite@0.4.24 OK for: external-editor@3.1.0 want: ^0.4.24
+435 silly placeDep node_modules/rivalz-node-cli tmp@0.0.33 OK for: external-editor@3.1.0 want: ^0.0.33
+436 silly fetch manifest safer-buffer@>= 2.1.2 < 3
+437 silly packumentCache full:https://registry.npmjs.org/safer-buffer cache-miss
+438 silly fetch manifest os-tmpdir@~1.0.2
+439 silly packumentCache full:https://registry.npmjs.org/os-tmpdir cache-miss
+440 http fetch GET 200 https://registry.npmjs.org/safer-buffer 166ms (cache hit)
+441 silly packumentCache full:https://registry.npmjs.org/safer-buffer set size:18521 disposed:false
+442 http fetch GET 200 https://registry.npmjs.org/os-tmpdir 156ms (cache hit)
+443 silly packumentCache full:https://registry.npmjs.org/os-tmpdir set size:8847 disposed:false
+444 silly placeDep node_modules/rivalz-node-cli safer-buffer@2.1.2 OK for: iconv-lite@0.4.24 want: >= 2.1.2 < 3
+445 silly placeDep node_modules/rivalz-node-cli mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+446 silly placeDep node_modules/rivalz-node-cli @types/readable-stream@4.0.15 OK for: mqtt@5.9.1 want: ^4.0.5
+447 silly placeDep node_modules/rivalz-node-cli @types/ws@8.5.12 OK for: mqtt@5.9.1 want: ^8.5.9
+448 silly placeDep node_modules/rivalz-node-cli commist@3.2.0 OK for: mqtt@5.9.1 want: ^3.2.0
+449 silly placeDep node_modules/rivalz-node-cli concat-stream@2.0.0 OK for: mqtt@5.9.1 want: ^2.0.0
+450 silly placeDep node_modules/rivalz-node-cli debug@4.3.6 OK for: mqtt@5.9.1 want: ^4.3.4
+451 silly placeDep node_modules/rivalz-node-cli help-me@5.0.0 OK for: mqtt@5.9.1 want: ^5.0.0
+452 silly placeDep node_modules/rivalz-node-cli lru-cache@10.4.3 OK for: mqtt@5.9.1 want: ^10.0.1
+453 silly placeDep node_modules/rivalz-node-cli minimist@1.2.8 OK for: mqtt@5.9.1 want: ^1.2.8
+454 silly placeDep node_modules/rivalz-node-cli mqtt-packet@9.0.0 OK for: mqtt@5.9.1 want: ^9.0.0
+455 silly placeDep node_modules/rivalz-node-cli number-allocator@1.0.14 OK for: mqtt@5.9.1 want: ^1.0.14
+456 silly placeDep node_modules/rivalz-node-cli readable-stream@4.5.2 OK for: mqtt@5.9.1 want: ^4.4.2
+457 silly placeDep node_modules/rivalz-node-cli reinterval@1.1.0 OK for: mqtt@5.9.1 want: ^1.1.0
+458 silly placeDep node_modules/rivalz-node-cli rfdc@1.4.1 OK for: mqtt@5.9.1 want: ^1.3.0
+459 silly placeDep node_modules/rivalz-node-cli split2@4.2.0 OK for: mqtt@5.9.1 want: ^4.2.0
+460 silly placeDep node_modules/rivalz-node-cli worker-timers@7.1.8 OK for: mqtt@5.9.1 want: ^7.1.4
+461 silly fetch manifest safe-buffer@~5.1.1
+462 silly packumentCache full:https://registry.npmjs.org/safe-buffer cache-miss
+463 silly fetch manifest buffer-from@^1.0.0
+464 silly packumentCache full:https://registry.npmjs.org/buffer-from cache-miss
+465 silly fetch manifest inherits@^2.0.3
+466 silly packumentCache full:https://registry.npmjs.org/inherits cache-miss
+467 http fetch GET 200 https://registry.npmjs.org/buffer-from 91ms (cache hit)
+468 silly packumentCache full:https://registry.npmjs.org/buffer-from set size:15463 disposed:false
+469 silly fetch manifest readable-stream@^3.0.2
+470 silly packumentCache full:https://registry.npmjs.org/readable-stream cache-hit
+471 silly fetch manifest typedarray@^0.0.6
+472 silly packumentCache full:https://registry.npmjs.org/typedarray cache-miss
+473 http fetch GET 200 https://registry.npmjs.org/safe-buffer 133ms (cache hit)
+474 silly packumentCache full:https://registry.npmjs.org/safe-buffer set size:41183 disposed:false
+475 silly fetch manifest ms@2.1.2
+476 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+477 http fetch GET 200 https://registry.npmjs.org/inherits 150ms (cache hit)
+478 silly packumentCache full:https://registry.npmjs.org/inherits set size:12925 disposed:false
+479 silly fetch manifest bl@^6.0.8
+480 silly packumentCache full:https://registry.npmjs.org/bl cache-hit
+481 silly fetch manifest process-nextick-args@^2.0.1
+482 silly packumentCache full:https://registry.npmjs.org/process-nextick-args cache-miss
+483 http fetch GET 200 https://registry.npmjs.org/typedarray 109ms (cache hit)
+484 silly packumentCache full:https://registry.npmjs.org/typedarray set size:18469 disposed:false
+485 silly fetch manifest js-sdsl@4.3.0
+486 silly packumentCache full:https://registry.npmjs.org/js-sdsl cache-miss
+487 http fetch GET 200 https://registry.npmjs.org/ms 105ms (cache hit)
+488 silly packumentCache full:https://registry.npmjs.org/ms set size:84885 disposed:false
+489 silly fetch manifest abort-controller@^3.0.0
+490 silly packumentCache full:https://registry.npmjs.org/abort-controller cache-miss
+491 http fetch GET 200 https://registry.npmjs.org/process-nextick-args 92ms (cache hit)
+492 silly packumentCache full:https://registry.npmjs.org/process-nextick-args set size:15428 disposed:false
+493 silly fetch manifest buffer@^6.0.3
+494 silly packumentCache full:https://registry.npmjs.org/buffer cache-miss
+495 http fetch GET 200 https://registry.npmjs.org/js-sdsl 66ms (cache hit)
+496 silly packumentCache full:https://registry.npmjs.org/js-sdsl set size:272223 disposed:false
+497 silly fetch manifest events@^3.3.0
+498 silly packumentCache full:https://registry.npmjs.org/events cache-miss
+499 http fetch GET 200 https://registry.npmjs.org/abort-controller 101ms (cache hit)
+500 silly packumentCache full:https://registry.npmjs.org/abort-controller set size:47272 disposed:false
+501 silly fetch manifest process@^0.11.10
+502 silly packumentCache full:https://registry.npmjs.org/process cache-miss
+503 http fetch GET 200 https://registry.npmjs.org/buffer 97ms (cache hit)
+504 silly packumentCache full:https://registry.npmjs.org/buffer set size:280480 disposed:false
+505 silly fetch manifest string_decoder@^1.3.0
+506 silly packumentCache full:https://registry.npmjs.org/string_decoder cache-miss
+507 http fetch GET 200 https://registry.npmjs.org/events 85ms (cache hit)
+508 silly packumentCache full:https://registry.npmjs.org/events set size:35240 disposed:false
+509 silly fetch manifest tslib@^2.6.2
+510 silly packumentCache full:https://registry.npmjs.org/tslib cache-hit
+511 silly fetch manifest @babel/runtime@^7.24.5
+512 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime cache-miss
+513 http fetch GET 200 https://registry.npmjs.org/process 49ms (cache hit)
+514 silly packumentCache full:https://registry.npmjs.org/process set size:31274 disposed:false
+515 silly fetch manifest worker-timers-broker@^6.1.8
+516 silly packumentCache full:https://registry.npmjs.org/worker-timers-broker cache-miss
+517 http fetch GET 200 https://registry.npmjs.org/string_decoder 50ms (cache hit)
+518 silly packumentCache full:https://registry.npmjs.org/string_decoder set size:28441 disposed:false
+519 silly fetch manifest worker-timers-worker@^7.0.71
+520 silly packumentCache full:https://registry.npmjs.org/worker-timers-worker cache-miss
+521 http fetch GET 200 https://registry.npmjs.org/@babel%2fruntime 201ms (cache hit)
+522 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime set size:2570944 disposed:false
+523 http fetch GET 200 https://registry.npmjs.org/worker-timers-broker 218ms (cache hit)
+524 silly packumentCache full:https://registry.npmjs.org/worker-timers-broker set size:716184 disposed:false
+525 http fetch GET 200 https://registry.npmjs.org/worker-timers-worker 316ms (cache hit)
+526 silly packumentCache full:https://registry.npmjs.org/worker-timers-worker set size:583355 disposed:false
+527 silly placeDep node_modules/rivalz-node-cli safe-buffer@5.1.2 OK for: @types/readable-stream@4.0.15 want: ~5.1.1
+528 silly placeDep node_modules/rivalz-node-cli buffer-from@1.1.2 OK for: concat-stream@2.0.0 want: ^1.0.0
+529 silly placeDep node_modules/rivalz-node-cli inherits@2.0.4 OK for: concat-stream@2.0.0 want: ^2.0.3
+530 silly placeDep node_modules/rivalz-node-cli/node_modules/concat-stream readable-stream@3.6.2 OK for: concat-stream@2.0.0 want: ^3.0.2
+531 silly placeDep node_modules/rivalz-node-cli typedarray@0.0.6 OK for: concat-stream@2.0.0 want: ^0.0.6
+532 silly fetch manifest string_decoder@^1.1.1
+533 silly packumentCache full:https://registry.npmjs.org/string_decoder cache-hit
+534 silly fetch manifest util-deprecate@^1.0.1
+535 silly packumentCache full:https://registry.npmjs.org/util-deprecate cache-miss
+536 http fetch GET 200 https://registry.npmjs.org/util-deprecate 44ms (cache hit)
+537 silly packumentCache full:https://registry.npmjs.org/util-deprecate set size:6674 disposed:false
+538 silly placeDep node_modules/rivalz-node-cli ms@2.1.2 OK for: debug@4.3.6 want: 2.1.2
+539 silly placeDep node_modules/rivalz-node-cli bl@6.0.14 OK for: mqtt-packet@9.0.0 want: ^6.0.8
+540 silly placeDep node_modules/rivalz-node-cli process-nextick-args@2.0.1 OK for: mqtt-packet@9.0.0 want: ^2.0.1
+541 silly placeDep node_modules/rivalz-node-cli buffer@6.0.3 OK for: bl@6.0.14 want: ^6.0.3
+542 silly fetch manifest base64-js@^1.3.1
+543 silly packumentCache full:https://registry.npmjs.org/base64-js cache-miss
+544 silly fetch manifest ieee754@^1.2.1
+545 silly packumentCache full:https://registry.npmjs.org/ieee754 cache-miss
+546 http fetch GET 200 https://registry.npmjs.org/base64-js 34ms (cache hit)
+547 silly packumentCache full:https://registry.npmjs.org/base64-js set size:41270 disposed:false
+548 http fetch GET 200 https://registry.npmjs.org/ieee754 41ms (cache hit)
+549 silly packumentCache full:https://registry.npmjs.org/ieee754 set size:34910 disposed:false
+550 silly placeDep node_modules/rivalz-node-cli base64-js@1.5.1 OK for: buffer@6.0.3 want: ^1.3.1
+551 silly placeDep node_modules/rivalz-node-cli ieee754@1.2.1 OK for: buffer@6.0.3 want: ^1.2.1
+552 silly placeDep node_modules/rivalz-node-cli js-sdsl@4.3.0 OK for: number-allocator@1.0.14 want: 4.3.0
+553 silly placeDep node_modules/rivalz-node-cli/node_modules/ora bl@4.1.0 OK for: ora@5.4.1 want: ^4.1.0
+554 silly placeDep node_modules/rivalz-node-cli cli-cursor@3.1.0 OK for: ora@5.4.1 want: ^3.1.0
+555 silly placeDep node_modules/rivalz-node-cli is-interactive@1.0.0 OK for: ora@5.4.1 want: ^1.0.0
+556 silly placeDep node_modules/rivalz-node-cli is-unicode-supported@0.1.0 OK for: ora@5.4.1 want: ^0.1.0
+557 silly placeDep node_modules/rivalz-node-cli log-symbols@4.1.0 OK for: ora@5.4.1 want: ^4.1.0
+558 silly placeDep node_modules/rivalz-node-cli wcwidth@1.0.1 OK for: ora@5.4.1 want: ^1.0.1
+559 silly fetch manifest buffer@^5.5.0
+560 silly packumentCache full:https://registry.npmjs.org/buffer cache-hit
+561 silly fetch manifest readable-stream@^3.4.0
+562 silly packumentCache full:https://registry.npmjs.org/readable-stream cache-hit
+563 silly fetch manifest restore-cursor@^3.1.0
+564 silly packumentCache full:https://registry.npmjs.org/restore-cursor cache-miss
+565 silly fetch manifest defaults@^1.0.3
+566 silly packumentCache full:https://registry.npmjs.org/defaults cache-miss
+567 http fetch GET 200 https://registry.npmjs.org/restore-cursor 65ms (cache hit)
+568 silly packumentCache full:https://registry.npmjs.org/restore-cursor set size:17895 disposed:false
+569 http fetch GET 200 https://registry.npmjs.org/defaults 48ms (cache hit)
+570 silly packumentCache full:https://registry.npmjs.org/defaults set size:18134 disposed:false
+571 silly placeDep node_modules/rivalz-node-cli restore-cursor@3.1.0 OK for: cli-cursor@3.1.0 want: ^3.1.0
+572 silly fetch manifest onetime@^5.1.0
+573 silly packumentCache full:https://registry.npmjs.org/onetime cache-miss
+574 silly fetch manifest signal-exit@^3.0.2
+575 silly packumentCache full:https://registry.npmjs.org/signal-exit cache-hit
+576 http fetch GET 200 https://registry.npmjs.org/onetime 112ms (cache hit)
+577 silly packumentCache full:https://registry.npmjs.org/onetime set size:30525 disposed:false
+578 silly placeDep node_modules/rivalz-node-cli abort-controller@3.0.0 OK for: readable-stream@4.5.2 want: ^3.0.0
+579 silly placeDep node_modules/rivalz-node-cli events@3.3.0 OK for: readable-stream@4.5.2 want: ^3.3.0
+580 silly placeDep node_modules/rivalz-node-cli process@0.11.10 OK for: readable-stream@4.5.2 want: ^0.11.10
+581 silly placeDep node_modules/rivalz-node-cli string_decoder@1.3.0 OK for: readable-stream@4.5.2 want: ^1.3.0
+582 silly fetch manifest event-target-shim@^5.0.0
+583 silly packumentCache full:https://registry.npmjs.org/event-target-shim cache-miss
+584 silly fetch manifest safe-buffer@~5.2.0
+585 silly packumentCache full:https://registry.npmjs.org/safe-buffer cache-hit
+586 http fetch GET 200 https://registry.npmjs.org/event-target-shim 143ms (cache hit)
+587 silly packumentCache full:https://registry.npmjs.org/event-target-shim set size:103601 disposed:false
+588 silly placeDep node_modules/rivalz-node-cli event-target-shim@5.0.1 OK for: abort-controller@3.0.0 want: ^5.0.0
+589 silly placeDep node_modules/rivalz-node-cli onetime@5.1.2 OK for: restore-cursor@3.1.0 want: ^5.1.0
+590 silly placeDep node_modules/rivalz-node-cli/node_modules/restore-cursor signal-exit@3.0.7 OK for: restore-cursor@3.1.0 want: ^3.0.2
+591 silly fetch manifest mimic-fn@^2.1.0
+592 silly packumentCache full:https://registry.npmjs.org/mimic-fn cache-miss
+593 http fetch GET 200 https://registry.npmjs.org/mimic-fn 128ms (cache hit)
+594 silly packumentCache full:https://registry.npmjs.org/mimic-fn set size:22257 disposed:false
+595 silly placeDep node_modules/rivalz-node-cli mimic-fn@2.1.0 OK for: onetime@5.1.2 want: ^2.1.0
+596 silly placeDep node_modules/rivalz-node-cli/node_modules/string_decoder safe-buffer@5.2.1 OK for: string_decoder@1.3.0 want: ~5.2.0
+597 silly placeDep node_modules/rivalz-node-cli ansi-regex@5.0.1 OK for: strip-ansi@6.0.1 want: ^5.0.1
+598 silly placeDep node_modules/rivalz-node-cli has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+599 silly placeDep node_modules/rivalz-node-cli os-tmpdir@1.0.2 OK for: tmp@0.0.33 want: ~1.0.2
+600 silly placeDep node_modules/rivalz-node-cli defaults@1.0.4 OK for: wcwidth@1.0.1 want: ^1.0.3
+601 silly fetch manifest clone@^1.0.2
+602 silly packumentCache full:https://registry.npmjs.org/clone cache-miss
+603 http fetch GET 200 https://registry.npmjs.org/clone 59ms (cache hit)
+604 silly packumentCache full:https://registry.npmjs.org/clone set size:82973 disposed:false
+605 silly placeDep node_modules/rivalz-node-cli clone@1.0.4 OK for: defaults@1.0.4 want: ^1.0.2
+606 silly placeDep node_modules/rivalz-node-cli @babel/runtime@7.25.0 OK for: worker-timers@7.1.8 want: ^7.24.5
+607 silly placeDep node_modules/rivalz-node-cli/node_modules/worker-timers tslib@2.6.3 OK for: worker-timers@7.1.8 want: ^2.6.2
+608 silly placeDep node_modules/rivalz-node-cli worker-timers-broker@6.1.8 OK for: worker-timers@7.1.8 want: ^6.1.8
+609 silly placeDep node_modules/rivalz-node-cli worker-timers-worker@7.0.71 OK for: worker-timers@7.1.8 want: ^7.0.71
+610 silly fetch manifest regenerator-runtime@^0.14.0
+611 silly packumentCache full:https://registry.npmjs.org/regenerator-runtime cache-miss
+612 silly fetch manifest fast-unique-numbers@^8.0.13
+613 silly packumentCache full:https://registry.npmjs.org/fast-unique-numbers cache-miss
+614 http fetch GET 200 https://registry.npmjs.org/regenerator-runtime 13ms (cache hit)
+615 silly packumentCache full:https://registry.npmjs.org/regenerator-runtime set size:59671 disposed:false
+616 http fetch GET 200 https://registry.npmjs.org/fast-unique-numbers 15ms (cache hit)
+617 silly packumentCache full:https://registry.npmjs.org/fast-unique-numbers set size:542341 disposed:false
+618 silly placeDep node_modules/rivalz-node-cli regenerator-runtime@0.14.1 OK for: @babel/runtime@7.25.0 want: ^0.14.0
+619 silly placeDep node_modules/rivalz-node-cli fast-unique-numbers@8.0.13 OK for: worker-timers-broker@6.1.8 want: ^8.0.13
+620 silly placeDep node_modules/rivalz-node-cli/node_modules/worker-timers-broker tslib@2.6.3 OK for: worker-timers-broker@6.1.8 want: ^2.6.2
+621 silly placeDep node_modules/rivalz-node-cli/node_modules/fast-unique-numbers tslib@2.6.3 OK for: fast-unique-numbers@8.0.13 want: ^2.6.2
+622 silly placeDep node_modules/rivalz-node-cli/node_modules/worker-timers-worker tslib@2.6.3 OK for: worker-timers-worker@7.0.71 want: ^2.6.2
+623 silly placeDep node_modules/rivalz-node-cli string-width@4.2.3 OK for: wrap-ansi@6.2.0 want: ^4.1.0
+624 silly fetch manifest emoji-regex@^8.0.0
+625 silly packumentCache full:https://registry.npmjs.org/emoji-regex cache-miss
+626 silly fetch manifest is-fullwidth-code-point@^3.0.0
+627 silly packumentCache full:https://registry.npmjs.org/is-fullwidth-code-point cache-miss
+628 http fetch GET 200 https://registry.npmjs.org/emoji-regex 21ms (cache hit)
+629 silly packumentCache full:https://registry.npmjs.org/emoji-regex set size:82895 disposed:false
+630 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point 23ms (cache hit)
+631 silly packumentCache full:https://registry.npmjs.org/is-fullwidth-code-point set size:12553 disposed:false
+632 silly placeDep node_modules/rivalz-node-cli emoji-regex@8.0.0 OK for: string-width@4.2.3 want: ^8.0.0
+633 silly placeDep node_modules/rivalz-node-cli is-fullwidth-code-point@3.0.0 OK for: string-width@4.2.3 want: ^3.0.0
+634 silly placeDep node_modules/rivalz-node-cli undici-types@6.13.0 OK for: @types/node@22.2.0 want: ~6.13.0
+635 silly placeDep node_modules/rivalz-node-cli util-deprecate@1.0.2 OK for: readable-stream@3.6.2 want: ^1.0.1
+636 silly placeDep node_modules/rivalz-node-cli/node_modules/ora buffer@5.7.1 OK for: bl@4.1.0 want: ^5.5.0
+637 silly placeDep node_modules/rivalz-node-cli/node_modules/ora readable-stream@3.6.2 OK for: bl@4.1.0 want: ^3.4.0
+638 silly reify mark retired [ '/usr/lib/node_modules/rivalz-node-cli', '/usr/bin/rivalz' ]
+639 silly reify moves {
+639 silly reify   '/usr/lib/node_modules/rivalz-node-cli': '/usr/lib/node_modules/.rivalz-node-cli-REPG4O8U',
+639 silly reify   '/usr/bin/rivalz': '/usr/bin/.rivalz-Puf4S5FT'
+639 silly reify }
+640 silly CHANGE node_modules/rivalz-node-cli
+641 silly CHANGE node_modules/rivalz-node-cli/node_modules/@inquirer/rawlist
+642 silly CHANGE node_modules/rivalz-node-cli/node_modules/@types/ws
+643 silly CHANGE node_modules/rivalz-node-cli/node_modules/@types/wrap-ansi
+644 silly CHANGE node_modules/rivalz-node-cli/node_modules/@types/readable-stream
+645 silly CHANGE node_modules/rivalz-node-cli/node_modules/@types/node
+646 silly CHANGE node_modules/rivalz-node-cli/node_modules/@types/mute-stream
+647 silly CHANGE node_modules/rivalz-node-cli/node_modules/@noble/curves
+648 silly CHANGE node_modules/rivalz-node-cli/node_modules/@noble/hashes
+649 silly CHANGE node_modules/rivalz-node-cli/node_modules/@inquirer/type
+650 silly CHANGE node_modules/rivalz-node-cli/node_modules/@inquirer/select
+651 silly CHANGE node_modules/rivalz-node-cli/node_modules/@inquirer/search
+652 silly CHANGE node_modules/rivalz-node-cli/node_modules/string-width
+653 silly CHANGE node_modules/rivalz-node-cli/node_modules/strip-ansi
+654 silly CHANGE node_modules/rivalz-node-cli/node_modules/@inquirer/prompts
+655 silly CHANGE node_modules/rivalz-node-cli/node_modules/@inquirer/password
+656 silly CHANGE node_modules/rivalz-node-cli/node_modules/@inquirer/number
+657 silly CHANGE node_modules/rivalz-node-cli/node_modules/signal-exit
+658 silly CHANGE node_modules/rivalz-node-cli/node_modules/@inquirer/input
+659 silly CHANGE node_modules/rivalz-node-cli/node_modules/@inquirer/figures
+660 silly CHANGE node_modules/rivalz-node-cli/node_modules/@inquirer/expand
+661 silly CHANGE node_modules/rivalz-node-cli/node_modules/@inquirer/core
+662 silly CHANGE node_modules/rivalz-node-cli/node_modules/@inquirer/core/node_modules/@types/node
+663 silly CHANGE node_modules/rivalz-node-cli/node_modules/@inquirer/editor
+664 silly CHANGE node_modules/rivalz-node-cli/node_modules/@inquirer/confirm
+665 silly CHANGE node_modules/rivalz-node-cli/node_modules/@adraffy/ens-normalize
+666 silly CHANGE node_modules/rivalz-node-cli/node_modules/@inquirer/checkbox
+667 silly CHANGE node_modules/rivalz-node-cli/node_modules/@babel/runtime
+668 silly CHANGE node_modules/rivalz-node-cli/node_modules/yoctocolors-cjs
+669 silly CHANGE node_modules/rivalz-node-cli/node_modules/ws
+670 silly CHANGE node_modules/rivalz-node-cli/node_modules/wrap-ansi
+671 silly CHANGE node_modules/rivalz-node-cli/node_modules/worker-timers
+672 silly CHANGE node_modules/rivalz-node-cli/node_modules/worker-timers/node_modules/tslib
+673 silly CHANGE node_modules/rivalz-node-cli/node_modules/worker-timers-worker
+674 silly CHANGE node_modules/rivalz-node-cli/node_modules/worker-timers-worker/node_modules/tslib
+675 silly CHANGE node_modules/rivalz-node-cli/node_modules/worker-timers-broker
+676 silly CHANGE node_modules/rivalz-node-cli/node_modules/worker-timers-broker/node_modules/tslib
+677 silly CHANGE node_modules/rivalz-node-cli/node_modules/wcwidth
+678 silly CHANGE node_modules/rivalz-node-cli/node_modules/util-deprecate
+679 silly CHANGE node_modules/rivalz-node-cli/node_modules/typedarray
+680 silly CHANGE node_modules/rivalz-node-cli/node_modules/undici-types
+681 silly CHANGE node_modules/rivalz-node-cli/node_modules/type-fest
+682 silly CHANGE node_modules/rivalz-node-cli/node_modules/systeminformation
+683 silly CHANGE node_modules/rivalz-node-cli/node_modules/tslib
+684 silly CHANGE node_modules/rivalz-node-cli/node_modules/tmp
+685 silly CHANGE node_modules/rivalz-node-cli/node_modules/supports-color
+686 silly CHANGE node_modules/rivalz-node-cli/node_modules/string_decoder
+687 silly CHANGE node_modules/rivalz-node-cli/node_modules/string_decoder/node_modules/safe-buffer
+688 silly CHANGE node_modules/rivalz-node-cli/node_modules/split2
+689 silly CHANGE node_modules/rivalz-node-cli/node_modules/safer-buffer
+690 silly CHANGE node_modules/rivalz-node-cli/node_modules/safe-buffer
+691 silly CHANGE node_modules/rivalz-node-cli/node_modules/rxjs
+692 silly CHANGE node_modules/rivalz-node-cli/node_modules/run-async
+693 silly CHANGE node_modules/rivalz-node-cli/node_modules/rfdc
+694 silly CHANGE node_modules/rivalz-node-cli/node_modules/restore-cursor
+695 silly CHANGE node_modules/rivalz-node-cli/node_modules/restore-cursor/node_modules/signal-exit
+696 silly CHANGE node_modules/rivalz-node-cli/node_modules/reinterval
+697 silly CHANGE node_modules/rivalz-node-cli/node_modules/mqtt-packet
+698 silly CHANGE node_modules/rivalz-node-cli/node_modules/regenerator-runtime
+699 silly CHANGE node_modules/rivalz-node-cli/node_modules/readable-stream
+700 silly CHANGE node_modules/rivalz-node-cli/node_modules/proxy-from-env
+701 silly CHANGE node_modules/rivalz-node-cli/node_modules/process-nextick-args
+702 silly CHANGE node_modules/rivalz-node-cli/node_modules/process
+703 silly CHANGE node_modules/rivalz-node-cli/node_modules/os-tmpdir
+704 silly CHANGE node_modules/rivalz-node-cli/node_modules/ora
+705 silly CHANGE node_modules/rivalz-node-cli/node_modules/ora/node_modules/buffer
+706 silly CHANGE node_modules/rivalz-node-cli/node_modules/ora/node_modules/readable-stream
+707 silly CHANGE node_modules/rivalz-node-cli/node_modules/ora/node_modules/bl
+708 silly CHANGE node_modules/rivalz-node-cli/node_modules/onetime
+709 silly CHANGE node_modules/rivalz-node-cli/node_modules/number-allocator
+710 silly CHANGE node_modules/rivalz-node-cli/node_modules/node-machine-id
+711 silly CHANGE node_modules/rivalz-node-cli/node_modules/mute-stream
+712 silly CHANGE node_modules/rivalz-node-cli/node_modules/ms
+713 silly CHANGE node_modules/rivalz-node-cli/node_modules/mqtt
+714 silly CHANGE node_modules/rivalz-node-cli/node_modules/minimist
+715 silly CHANGE node_modules/rivalz-node-cli/node_modules/mimic-fn
+716 silly CHANGE node_modules/rivalz-node-cli/node_modules/mime-types
+717 silly CHANGE node_modules/rivalz-node-cli/node_modules/mime-db
+718 silly CHANGE node_modules/rivalz-node-cli/node_modules/lru-cache
+719 silly CHANGE node_modules/rivalz-node-cli/node_modules/log-symbols
+720 silly CHANGE node_modules/rivalz-node-cli/node_modules/js-sdsl
+721 silly CHANGE node_modules/rivalz-node-cli/node_modules/is-unicode-supported
+722 silly CHANGE node_modules/rivalz-node-cli/node_modules/is-interactive
+723 silly CHANGE node_modules/rivalz-node-cli/node_modules/is-fullwidth-code-point
+724 silly CHANGE node_modules/rivalz-node-cli/node_modules/inquirer
+725 silly CHANGE node_modules/rivalz-node-cli/node_modules/inherits
+726 silly CHANGE node_modules/rivalz-node-cli/node_modules/ieee754
+727 silly CHANGE node_modules/rivalz-node-cli/node_modules/iconv-lite
+728 silly CHANGE node_modules/rivalz-node-cli/node_modules/help-me
+729 silly CHANGE node_modules/rivalz-node-cli/node_modules/has-flag
+730 silly CHANGE node_modules/rivalz-node-cli/node_modules/form-data
+731 silly CHANGE node_modules/rivalz-node-cli/node_modules/follow-redirects
+732 silly CHANGE node_modules/rivalz-node-cli/node_modules/fast-unique-numbers
+733 silly CHANGE node_modules/rivalz-node-cli/node_modules/fast-unique-numbers/node_modules/tslib
+734 silly CHANGE node_modules/rivalz-node-cli/node_modules/external-editor
+735 silly CHANGE node_modules/rivalz-node-cli/node_modules/events
+736 silly CHANGE node_modules/rivalz-node-cli/node_modules/event-target-shim
+737 silly CHANGE node_modules/rivalz-node-cli/node_modules/ethers
+738 silly CHANGE node_modules/rivalz-node-cli/node_modules/emoji-regex
+739 silly CHANGE node_modules/rivalz-node-cli/node_modules/delayed-stream
+740 silly CHANGE node_modules/rivalz-node-cli/node_modules/defaults
+741 silly CHANGE node_modules/rivalz-node-cli/node_modules/debug
+742 silly CHANGE node_modules/rivalz-node-cli/node_modules/concat-stream
+743 silly CHANGE node_modules/rivalz-node-cli/node_modules/concat-stream/node_modules/readable-stream
+744 silly CHANGE node_modules/rivalz-node-cli/node_modules/commist
+745 silly CHANGE node_modules/rivalz-node-cli/node_modules/commander
+746 silly CHANGE node_modules/rivalz-node-cli/node_modules/combined-stream
+747 silly CHANGE node_modules/rivalz-node-cli/node_modules/color-name
+748 silly CHANGE node_modules/rivalz-node-cli/node_modules/color-convert
+749 silly CHANGE node_modules/rivalz-node-cli/node_modules/clone
+750 silly CHANGE node_modules/rivalz-node-cli/node_modules/cli-width
+751 silly CHANGE node_modules/rivalz-node-cli/node_modules/cli-spinners
+752 silly CHANGE node_modules/rivalz-node-cli/node_modules/cli-cursor
+753 silly CHANGE node_modules/rivalz-node-cli/node_modules/chardet
+754 silly CHANGE node_modules/rivalz-node-cli/node_modules/chalk
+755 silly CHANGE node_modules/rivalz-node-cli/node_modules/buffer-from
+756 silly CHANGE node_modules/rivalz-node-cli/node_modules/buffer
+757 silly CHANGE node_modules/rivalz-node-cli/node_modules/bl
+758 silly CHANGE node_modules/rivalz-node-cli/node_modules/base64-js
+759 silly CHANGE node_modules/rivalz-node-cli/node_modules/axios
+760 silly CHANGE node_modules/rivalz-node-cli/node_modules/asynckit
+761 silly CHANGE node_modules/rivalz-node-cli/node_modules/ansi-styles
+762 silly CHANGE node_modules/rivalz-node-cli/node_modules/ansi-regex
+763 silly CHANGE node_modules/rivalz-node-cli/node_modules/ansi-escapes
+764 silly CHANGE node_modules/rivalz-node-cli/node_modules/aes-js
+765 silly CHANGE node_modules/rivalz-node-cli/node_modules/abort-controller
+766 verbose cwd /root
+767 verbose os Linux 5.15.0-25-generic
+768 verbose node v20.16.0
+769 verbose npm  v10.8.1
+770 verbose exit 0
+771 info ok
